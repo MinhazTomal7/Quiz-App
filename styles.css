@@ -1,0 +1,43 @@
+body{
+    background-color: navy;
+    margin: 0;
+    padding: 0;
+}
+
+.app{
+    background-color: white;
+    margin: 5% auto;
+    width: 40%;
+    padding: 2%;
+    border-radius: 50px;
+}
+
+.choice{
+    padding: 2%;
+    width: 100%;
+    margin: 2% auto;
+    background: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.choice:hover{
+    background-color: #222;
+    color: white;
+}
+
+.next-btn{
+    display: none;
+    padding: 15px;
+    width: 20%;
+    margin: 2% auto;
+    background: navy;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.next-btn:hover{
+    background-color: blue;
+}
