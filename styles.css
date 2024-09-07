@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 
-.app{
+#app{
     background-color: white;
     margin: 5% auto;
     width: 40%;
@@ -16,7 +16,6 @@ body{
     padding: 2%;
     width: 100%;
     margin: 2% auto;
-    background: white;
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -26,8 +25,8 @@ body{
     color: white;
 }
 
-.next-btn{
-    display: none;
+#next-btn{
+    display: block;
     padding: 15px;
     width: 20%;
     margin: 2% auto;
@@ -38,6 +37,39 @@ body{
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-.next-btn:hover{
+#next-btn:hover{
     background-color: blue;
+}
+
+#restartButton {
+    display: block;
+    margin: 20px auto;
+    background: navy;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 50%;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    button {
+        font-size: 0.9rem;
+        padding: 8px 16px; /
+    }
+
+    #next-btn, #restartButton {
+        width: 50%;
+    }
+}
+@media (max-width: 1000px) {
+    button {
+        font-size: 0.9rem;
+        padding: 8px 16px; /
+    }
+
+    #next-btn, #restartButton {
+        width: 50%;
+    }
 }
